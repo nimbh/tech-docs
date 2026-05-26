@@ -1,5 +1,63 @@
 site_name: Techfoxy Docs
+site_description: лисья дока
+
+theme:
+  name: material
+  logo: img/icon.png
+  favicon: img/icon.png
+  font:
+    text: Courier New
+    code: Courier New
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Выключить солнышко
+      primary: deep purple
+      accent: amber
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Позвать солнышко
+      primary: purple
+      accent: pink
+  features:
+    - navigation.path
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Главная страница: index.md
+  - Инструкции:
+      - Список инструкций: instructions/index.md
+      - Инструкция Telegram: instructions/tg.md
+      - Глоссарий: instructions/glossary.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
 
 plugins:
   - search
   - glightbox
+  - tags:
+      tags_allowed:
+        - Портфолио
+        - manuals
+        - rules
+        - helps

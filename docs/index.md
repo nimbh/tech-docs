@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Привет, путник!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Добро пожаловать в хранилище **@arvelveka**! Здесь собраны свитки самого разного формата и назначения. Изучай, запоминай, применяй или просто сохрани на будущее :))
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<img 
+  src="https://i.pinimg.com/originals/5a/0d/cc/5a0dcc5e5779f0c54f72c66e6d106764.gif"
+  alt="Лисичка"
+  width="350"
+  style="display: block; margin: 0 auto;"
+/>
